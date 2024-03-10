@@ -22,22 +22,22 @@ import pandas as pd
 from datetime import datetime
 
 TRAINING_ENDPOINT = "https://dxcustomvision.cognitiveservices.azure.com/"
-training_key = "eb69e1f90f34440c944b60f8969e105a"
-training_resource_id = '/subscriptions/d9a31020-17ef-44e7-9836-f10843b2cf0a/resourceGroups/AChau-Storage-Rg/providers/Microsoft.CognitiveServices/accounts/dxcustomvision'
+training_key = ""
+training_resource_id = ''
 
 PREDICTION_ENDPOINT = 'https://dxcustomvision-prediction.cognitiveservices.azure.com/'
-prediction_key = "db277faf9f0f433ab9e5a0c8af4f7818"
+prediction_key = ""
 prediction_resource_id = "/subscriptions/d9a31020-17ef-44e7-9836-f10843b2cf0a/resourceGroups/AChau-Storage-Rg/providers/Microsoft.CognitiveServices/accounts/dxcustomvision-Prediction"
 
-subscription_key = "9d497cb35fb24b8294cfee8deb6b0c15"
+subscription_key = ""
 location = "trial"
-account_id = "88c51449-daf3-4a29-aa56-b5dc3b61f538"
+account_id = ""
 
 face_endpoint = "https://dx-face.cognitiveservices.azure.com/"
-face_key = "33c804e1892847999a03459cdad34679"
+face_key = ""
 
 form_endpoint = "https://dx-doc-intelligence.cognitiveservices.azure.com/"
-form_key = "6f40a3949f2848539a4082c9d6d23f28"
+form_key = ""
 
 manifest = pd.read_csv("flight_manifest_trongld1.csv")
 
