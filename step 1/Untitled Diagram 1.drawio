@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2024-03-10T15:52:28.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="oiA2eXdxMg5KsxtSQSpV" version="22.1.11" type="device">
+  <diagram name="Page-1" id="46krPi5HLdfhXIgeGULV">
+    <mxGraphModel dx="1036" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TmVYcLPJFoG8RGxdMic--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--1" target="TmVYcLPJFoG8RGxdMic--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--4" value="Input Id card" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmVYcLPJFoG8RGxdMic--3">
+          <mxGeometry x="-0.175" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--1" value="Automation Kiosk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--2" target="TmVYcLPJFoG8RGxdMic--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--2" value="Check personel info, extract face" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--5" target="TmVYcLPJFoG8RGxdMic--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--5" value="Check boarding pass info, compare with Id card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--8" target="TmVYcLPJFoG8RGxdMic--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--11" value="Yes, input boarding pass" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmVYcLPJFoG8RGxdMic--10">
+          <mxGeometry x="-0.2914" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--8" target="TmVYcLPJFoG8RGxdMic--12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--14" value="Faild" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmVYcLPJFoG8RGxdMic--13">
+          <mxGeometry x="-0.5213" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--8" value="Valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--12" value="End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--16" target="TmVYcLPJFoG8RGxdMic--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--19" value="Yes, check bagge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmVYcLPJFoG8RGxdMic--18">
+          <mxGeometry x="-0.2293" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--16" target="TmVYcLPJFoG8RGxdMic--12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--16" value="Valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TmVYcLPJFoG8RGxdMic--17" target="TmVYcLPJFoG8RGxdMic--12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="560" />
+              <mxPoint x="450" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--24" value="All valid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TmVYcLPJFoG8RGxdMic--23">
+          <mxGeometry x="0.1295" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TmVYcLPJFoG8RGxdMic--17" value="Check boarding pass info, compare with Id card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
